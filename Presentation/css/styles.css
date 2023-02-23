@@ -1,0 +1,433 @@
+body {
+    background-color: lightblue;
+    background-size: cover;
+    overflow-y: scroll;
+    height: 100vh;
+   
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Athiti';
+}
+
+h1{
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Athiti';
+}
+
+div h1{
+    color: white;
+    font-size: 45px;
+
+}
+
+.medText {
+    margin-right: auto;
+    padding-left: 50px;
+    font-size: 45px;
+}
+
+.bigText {
+    margin-right: auto;
+    padding-left: 50px;
+    font-size: 70px;
+}
+.normalText {
+    margin-right: auto;
+    text-align: left;
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+span {
+    color: #ff6600ff;
+}
+.logo-text{
+    padding-left :12px;
+}
+
+.mainContent {
+    padding-top:   50px;
+}
+
+
+u{
+    text-decoration-color: #ff6600ff;
+    text-decoration-thickness: 2.5px;
+}
+
+.spa{
+    color: "#ff6600ff";
+}
+
+.button-primary {
+    padding: 10px;
+    border-radius: 35px;
+    display: block;
+    width: 100px;
+    text-align: center;
+    background-color: "#ff6600ff";
+    color: white;
+ 
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.userslist{
+    list-style: disc;
+}
+
+.listItem{
+    color : white;
+    padding-left: 10px;
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.navList {
+	padding-left:100px;
+    padding-right: 50px;
+    padding-top: 50px;
+    display: flex;
+    list-style: none;
+}
+
+.headerDiv {
+    padding-top: 300px;padding-right: 50px;padding-left: 100px;
+}
+
+
+
+header {
+    margin-bottom: 150px;
+    border-radius: 5px;border-width: 15px;;border:double   #ff6600ff;background-color: rgb(7, 22, 26);
+    position: fixed;
+    width: 100%;
+}
+
+li a {
+    margin-right: 20px;
+    color : white;
+    text-decoration: none;
+    font-family: 'Athiti';
+    font-size: 25px;
+    transition:  0.8s ease-in-out;
+}
+
+li a:hover {
+    color : #ff6600ff;
+    transition: all 0.8s ease-in-out;
+    text-decoration: none;
+
+    
+}
+a {
+    color : #ff6600ff;
+}
+
+.active {
+    color : #ff6600ff;
+    text-decoration:underline;
+}
+
+li a::after {
+    color : #ff6600ff;
+    text-decoration: none;
+   
+}
+
+.logo img  {
+    height: 75px;
+    width: 75px;
+    padding-left: 50px;
+}
+
+#HOME{
+	padding-top: 250px;
+}
+#TEAM{
+	padding-top: 200px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 100px;
+}
+
+#Sponsor{
+	padding-top: 300px;padding-bottom:100px"
+}
+
+
+#SolutionHeader{
+padding-top: 100px;padding-right: 150px;padding-left: 100px;
+}
+#UsersHeader{
+padding-top: 100px;padding-right: 150px;padding-left: 100px;
+}
+#ConclusionHeader{
+padding-top: 100px;padding-right: 150px;padding-left: 100px;padding-bottom:100px
+}
+
+#Device{
+	padding-top: 250px;padding-right: 150px;padding-left: 100px;
+}
+#deviceImage{
+	width : 400px;
+	height:400px;
+	border-radius:100px;
+	margin-top:20px;
+	margin-left:50px;
+	
+}
+
+#deviceImages{
+	margin-left:100px;
+	padding-bottom:50px;
+	padding-right: 50px;
+	
+}
+
+.logo {
+    padding-left: 50px;
+    padding-top: 10px;
+    
+}
+
+.team-members {
+    display: flex;
+	margin-left:auto;
+	margin-right:auto;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.member img{
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
+	margin-left:auto;
+	margin-right:auto;
+    background-color:#ff6600ff ;
+}
+
+.member h2,p{
+ 
+   text-align: center;
+   color: white;
+}
+
+div i b p {
+    color:#ff6600ff ;
+}
+
+.member h2{
+    color: #fff;
+    font-size: 28px;
+ }
+
+.member {
+ 
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 0;
+	align-content: center;
+	display:grid;
+	padding-top:50px;
+	
+}
+
+@media screen and (max-width: 896px){
+	
+.logo {
+    padding-left: 10px;
+    padding-top: 10px;    
+}
+
+.team-members {
+    display: grid;
+	margin-left:80px;
+	margin-right:80px;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.logo-text{
+    font-size: 15px;
+	padding-left:35px;
+}
+
+.logo img  {
+    height: 75px;
+    width: 75px;
+    padding-left: 25px;
+}
+.navList {
+	padding-left:50px;
+    padding-right: 5px;
+	padding-top:0px;
+    display: block;
+    list-style: none;
+}
+
+li a {
+    margin-right: 20px;
+    color : white;
+    text-decoration: none;
+    font-family: 'Athiti';
+    font-size: 15px;
+    transition:  0.8s ease-in-out;
+}
+
+
+.headerDiv {
+    padding-top: 150px;padding-right: 20px;padding-left: 50px;
+}
+
+.bigText {
+    margin-right: auto;
+    padding-left: 50px;
+    font-size: 50px;
+}
+
+
+#TEAM{
+	padding-top: 200px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 100px;
+}
+
+#Sponsor{
+	padding-top: 150px;padding-bottom:100px"
+}
+
+	
+}
+
+@media screen and (max-width: 800px){
+.bigText {
+    margin-right: auto;
+    padding-left: 5px;
+    font-size: 35px;
+}
+
+
+.medText {
+    margin-right: auto;
+	text-align: left;
+	padding-left: 5px;
+    font-size: 25px;
+}
+
+#deviceImage{
+	width : 200px;
+	height:100px;
+	border-radius:100px;
+	
+}
+
+#deviceImages{
+	margin-left:70px;
+	padding-bottom:50px;
+	padding-right: 50px;
+	
+}
+
+#problemContent{
+	padding-top: 10px;
+}
+
+#SolutionHeader{
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+}
+
+#UsersHeader{
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+}
+
+#ConclusionHeader{
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+}
+#Sponsor{
+	padding-top: 150px;padding-bottom:100px"
+}
+
+#HOME{
+	padding-top: 150px;
+}
+
+#TEAM{
+	padding-top: 150px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 100px;
+}
+
+#Device{
+	padding-top: 150px;padding-right: 20px;padding-left: 50px;padding-bottom: 20px;
+}
+
+.team-members {
+    display: inline;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 60px;
+    justify-content: center;
+}
+
+.member img{
+    height: 200px;
+    width: 200px;
+	margin-left:auto;
+	margin-right:auto;
+    border-radius: 150px;
+    background-color:#ff6600ff ;
+	align-self:center;
+}
+
+.member h2, p {
+ 
+    color: white;
+	margin-left:auto;
+	margin-right:auto;
+	align-self:center
+}
+
+.member h2 {
+    color: #fff;
+    font-size: 20px;
+	padding-bottom:10px;
+}
+
+.member {
+   padding-right: 50px;
+   padding-left: 50px;
+   padding-top:20px;
+   padding-bottom:20px;
+}
+.normalText {
+    margin-right: auto;
+    text-align: left;
+    font-size: 15px;
+	padding-left: 5px;
+}
+}
+
+356
+
